@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(234, 230, 232); 
+    color: rgb(14, 13, 13);
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background: radial-gradient(circle at center,#c38890 0%, 100%); /* Radial gradient background */
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.ice-cream-display {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.delivery-info p {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.order-button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.price-info {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.price {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.price-value {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.8em;
+} 
+.item{
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1;
+}
+.item img {
+    width: 100%; /* Ensures images fill their container */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    /* You MUST add real image files (vanilla.jpg, chocolate.jpg, strawberry.jpg) to an 'images' folder */
+}

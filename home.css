@@ -1,0 +1,119 @@
+*{
+    margin: 0.1px;
+    padding: 0.1px;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    background: white;
+    color: black;
+    backdrop-filter: blur(0.1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+/* NAVIGATION */
+nav{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffb6c1;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(214, 12, 89);
+    font-style: italic;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: rgb(15, 14, 14);
+}
+
+.login-btn{
+    padding: 8px 18px;
+    background: rgb(197, 17, 125);
+    border-radius: 4px;
+    color: rgb(30, 3, 24) !important;
+}
+
+/* HERO SECTION */
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero h1{
+    font-size: 2.8rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.highlight{
+    color: rgb(211, 7, 164);
+}
+
+.sub-text{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    opacity: 24500;
+}
+
+.cta-btn{
+    margin-top: 25px;
+    padding: 14px 34px;
+    background: rgb(250, 6, 161);
+    border: #170e1380;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-btn:hover{
+    background: #cc7700;
+} 
+/* background*/
+.body{
+    backdrop-filter: blur(10px);
+    height: auto;
+    
+}
+/* image*/
+.top-image img {
+    width: 200pxpx;
+    height: auto;
+}
+.footer{
+    background-color: black;
+    padding: auto;
+    height: auto;
+}

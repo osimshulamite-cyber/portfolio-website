@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    background-color: #ead7da; /* A light, warm background color */
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+}
+
+header h1 {
+    font-size: 3em;
+    color: rgb(214, 12, 89) ; /* A dark brown color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+     background: #ffb6c1;
+     height: fit-content;
+}
+nav ul li a:hover {
+    color: #FF69B4; /* Hot Pink on hover */
+}
+.clipped-circle{
+    clip-path: circle(50%);
+    width: 255px;
+    height: 250px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    align-items: initial;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+.left-content,
+.item{
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    word-spacing: normal;
+
+}
+.right-content,
+.item-image{
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    word-spacing: normal;
+}
+.section-one{
+    order: 2;
+    position: left;
+}
+.section-two{
+    order: 1;
+    position: right
+}
